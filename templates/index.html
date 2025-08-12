@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = stylesheet href= "{{ url_for('static', filename='css/main.css')}}">
+    <title> Fast. Fresh. Facts. </title>
+</head>
+<body>
+
+</div>
+
+    <div class="bg-photo"></div>
+    <div class="scan"></div>
+    
+    <header class="content">
+        <h1> Fast Fresh Facts </h1>
+    </header>
+    <form method="post">
+        <input type="text" name="article_url" placeholder="Enter URL here" required>
+        <button type="submit">Summarize</button>
+    </form>
+
+    {% if summary %}
+    <h3> Summary </h3>
+    <p> {{ summary }} </p> 
+    {% endif %}
+    {% if images %}
+        <h2>Images</h2>
+        {% for img in images %}
+            <img src="{{ img }}" alt="Article image" style="max-width: 200px;">
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
