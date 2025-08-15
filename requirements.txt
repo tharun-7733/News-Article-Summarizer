@@ -1,7 +1,8 @@
 flask
-torch==2.5.0
-transformers
-newspaper3k
-beautifulsoup4
-requests
 gunicorn
+transformers
+torch==2.5.0
+newspaper3k
+lxml_html_clean
+requests
+BeautifulSoup4
