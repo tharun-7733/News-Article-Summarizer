@@ -1,5 +1,5 @@
 flask
-torch=2.5.0
+torch==2.5.0
 transformers
 newspaper3k
 beautifulsoup4
