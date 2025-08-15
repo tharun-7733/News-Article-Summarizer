@@ -2,5 +2,4 @@ transformers
 newspaper3k
 flask
 requests
-urllib.parse
 beautifulsoup4
