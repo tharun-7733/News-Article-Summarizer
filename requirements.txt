@@ -1,6 +1,5 @@
-flask==3.0.3
-transformers==4.44.2
-torch==2.5.0
-newspaper3k==0.2.8
-beautifulsoup4==4.12.3
-requests==2.32.3
+flask
+transformers
+newspaper3k
+beautifulsoup4
+requests
