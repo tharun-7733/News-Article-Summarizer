@@ -59,8 +59,6 @@ def summarize_article():
                 error = f"Error processing URL: {str(e)}"
     return render_template('index.html', summary=summary_text, images=images,error=error)  
 
-if __name__ == "__main__":
-    app.run(debug=True)
 
 
 
