@@ -6,7 +6,7 @@ import requests
 from urllib.parse import urljoin
 app = Flask(__name__)
 
-summarizer = pipeline("summarization", model = "sshleifer/distilbart-cnn-12-6")
+summarizer = pipeline("summarization", model = "sshleifer/distilbart-cnn-12-6") // facebook/bart-large-cnn
 
 def extract_text_from_url(url):
         
