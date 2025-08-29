@@ -1,8 +1,8 @@
 flask
 gunicorn
 transformers
-torch
+torch==2.2.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 newspaper3k
 lxml_html_clean
-requests
 beautifulsoup4
+requests
